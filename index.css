@@ -1,0 +1,49 @@
+.download-pdf-button-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.main-container {
+    display: grid;
+    background-color: bisque;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+#header-container {
+    border: 1px black solid;
+    overflow-wrap: break-word;
+    padding: 1%;
+}
+
+#header-container img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+#details-container {
+    border: 1px red solid;
+    padding: 1%;
+}
+
+#details-top-container {
+    border: 1px yellow solid;
+    overflow-wrap: break-word;
+    padding: 1%;
+}
+
+#details-left-container {
+    border: 1px greenyellow solid;
+}
+
+#details-right-container {
+    border: 1px green solid;
+}
+
+#footer-container {
+    border: 1px lightcoral solid;
+}
